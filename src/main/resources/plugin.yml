@@ -1,0 +1,6 @@
+name: SmartTeams
+version: '${project.version}'
+main: xyz.wiseared.smartdevelopment.teams.SmartTeams
+api-version: 1.19
+authors: [ Wiseared ]
+description: SmartTeams

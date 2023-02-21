@@ -1,0 +1,6 @@
+TEAMS:
+  ALREADY_EXISTS: '&cThis team already exists!'
+  ALREADY_IN_TEAM: '&cYou are already in a team!'
+  CREATED:
+    MESSAGE: '&5&lTEAMS &7» &fYou have created the team &d%team%'
+    BROADCAST: '&7[&c&l!&7] &c%player% &fhas created the team &c%team%'
