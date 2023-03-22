@@ -3,8 +3,8 @@ package xyz.wiseared.smartdevelopment.teams.utils.command.schema;
 import com.google.common.collect.Lists;
 import lombok.Getter;
 import lombok.ToString;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.Zetsu;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.annotations.Command;
+import xyz.wiseared.smartdevelopment.teams.utils.command.Zetsu;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.annotations.Command;
 import org.bukkit.entity.Player;
 
 import java.lang.reflect.Method;

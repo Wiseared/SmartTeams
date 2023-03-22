@@ -2,10 +2,10 @@ package xyz.wiseared.smartdevelopment.teams.utils.command.tabcomplete;
 
 import com.google.common.collect.Maps;
 import lombok.Getter;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.Zetsu;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.CachedCommand;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.tabcomplete.listener.TabCompleteListener;
-import org.apache.commons.lang.StringUtils;
+import xyz.wiseared.smartdevelopment.teams.utils.command.Zetsu;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.CachedCommand;
+import xyz.wiseared.smartdevelopment.teams.utils.command.tabcomplete.listener.TabCompleteListener;
+import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.Collection;

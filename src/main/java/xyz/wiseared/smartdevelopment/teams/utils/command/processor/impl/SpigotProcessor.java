@@ -1,12 +1,12 @@
 package xyz.wiseared.smartdevelopment.teams.utils.command.processor.impl;
 
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.Zetsu;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.processor.CommandProcessor;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.CachedCommand;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.annotations.parameter.Default;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.annotations.parameter.Param;
-import org.apache.commons.lang.ArrayUtils;
-import org.apache.commons.lang.StringUtils;
+import xyz.wiseared.smartdevelopment.teams.utils.command.Zetsu;
+import xyz.wiseared.smartdevelopment.teams.utils.command.processor.CommandProcessor;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.CachedCommand;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.annotations.parameter.Default;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.annotations.parameter.Param;
+import org.apache.commons.lang3.ArrayUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

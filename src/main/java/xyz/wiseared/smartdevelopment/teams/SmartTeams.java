@@ -33,6 +33,10 @@ public class SmartTeams extends JavaPlugin {
 
         setup();
 
+        CC.console("&7[&5SmartTeams&7] &aEnabled");
+        CC.console("&7[&5SmartTeams&7] &7By: &dWiseared");
+        CC.console("&7[&5SmartTeams&7] &ddiscord.smartdevelopment.tech");
+
         CC.console(CC.CHAT_BAR);
     }
 

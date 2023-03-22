@@ -2,11 +2,11 @@ package xyz.wiseared.smartdevelopment.teams.utils.command.processor;
 
 import com.google.common.collect.Lists;
 import lombok.AllArgsConstructor;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.Zetsu;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.adapters.ParameterAdapter;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.permissible.PermissibleAttachment;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.CachedCommand;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.annotations.parameter.Param;
+import xyz.wiseared.smartdevelopment.teams.utils.command.Zetsu;
+import xyz.wiseared.smartdevelopment.teams.utils.command.adapters.ParameterAdapter;
+import xyz.wiseared.smartdevelopment.teams.utils.command.permissible.PermissibleAttachment;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.CachedCommand;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.annotations.parameter.Param;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;

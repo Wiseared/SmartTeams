@@ -1,6 +1,44 @@
 TEAMS:
-  ALREADY_EXISTS: '&cThis team already exists!'
-  ALREADY_IN_TEAM: '&cYou are already in a team!'
+  ALREADY_EXISTS: '&5&lTEAMS &7» &cThis team already exists!'
+  ALREADY_IN_TEAM: '&5&lTEAMS &7» &cYou are already in a team!'
+  CANT_DAMAGE_TEAM: '&5&lTEAMS &7» &cYou can''t damage your teammate!'
+  DOESNT_EXIST: '&5&lTEAMS &7» &cThis team doesn''t exist!'
+  NO_TEAM: '&5&lTEAMS &7» &cYou don''t have a team!'
+  INFO:
+    - '&7&m----------------------'
+    - '&fTeam info for &d%team%'
+    - ' '
+    - '&dLeader: &f%leader%'
+    - '&dMembers: &f%members%'
+    - '&dHome: &f%x%&7, &f%y%&7, &f%z%'
+    - '&7&m----------------------'
   CREATED:
     MESSAGE: '&5&lTEAMS &7» &fYou have created the team &d%team%'
     BROADCAST: '&7[&c&l!&7] &c%player% &fhas created the team &c%team%'
+  HOME:
+    UPDATED: '&5&lTEAMS &7» &fYou have updated the team''s home!'
+    BROADCAST: '&5&lTEAMS &7» &fYour team''s home has been updated by &d%player%'
+    TELEPORTED: '&5&lTEAMS &7» &fTeleported to &d%team%''s &fhome!'
+  INVITE:
+    NO_PERMISSION: '&5&lTEAMS &7» &cYou can''t perform this action with your role!'
+    ALREADY_INVITED: '&5&lTEAMS &7» &cThis player is already invited to your team!'
+    ALREADY_HAS_A_TEAM: '&5&lTEAMS &7» &cThis player already has a team!'
+    INVITE_SENT: '&5&lTEAMS &7» &fYou have invited &d%player% &fto join your team!'
+    INVITE_RECEIVED: '&5&lTEAMS &7» &fYou have been invited to join &d%team%'
+  JOIN:
+    NOT_INVITED: '&5&lTEAMS &7» &cYou have not been invited by &d%team%'
+    JOINED: '&5&lTEAMS &7» &fYou have joined &d%team%'
+    BROADCAST: '&5&lTEAMS &7» &d%player% &fhas joined your team!'
+  LEAVE:
+    LEFT: '&5&lTEAMS &7» &fYou have left &d%team%'
+    BROADCAST: '&5&lTEAMS &7» &d%player% &fhas left your team!'
+  DISBAND:
+    LEADER: '&5&lTEAMS &7» &cYou must be the leader to disband your team!'
+    DISBANDED: '&5&lTEAMS &7» &cYou have disbanded your team!'
+    BROADCAST: '&5&lTEAMS &7» &cYour team has been disbanded!'
+  KICK:
+    NOT_IN_TEAM: '&5&lTEAMS &7» &cThis player is not in your team!'
+    CANT_KICK: '&5&lTEAMS &7» &cYou can''t kick this player!'
+    KICK: '&5&lTEAMS &7» &fYou have been kicked from &d%team%'
+    KICKER: '&5&lTEAMS &7» &fYou have kicked &d%player% &ffrom your team!'
+    BROADCAST: '&5&lTEAMS &7» &d%player% &fhas been kicked from your team!'

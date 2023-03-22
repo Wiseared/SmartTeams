@@ -1,7 +1,7 @@
 package xyz.wiseared.smartdevelopment.teams.utils.command.processor.bukkit;
 
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.processor.impl.SpigotProcessor;
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.tabcomplete.TabCompleteHandler;
+import xyz.wiseared.smartdevelopment.teams.utils.command.processor.impl.SpigotProcessor;
+import xyz.wiseared.smartdevelopment.teams.utils.command.tabcomplete.TabCompleteHandler;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 

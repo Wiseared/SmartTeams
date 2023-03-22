@@ -3,6 +3,7 @@ package xyz.wiseared.smartdevelopment.teams.team;
 import lombok.Getter;
 import xyz.wiseared.smartdevelopment.teams.SmartTeams;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
@@ -14,6 +15,7 @@ public class TeamManager {
 
     public TeamManager(SmartTeams plugin) {
         this.plugin = plugin;
+        this.teams = new HashMap<>();
 
         loadTeams();
     }
@@ -33,6 +35,10 @@ public class TeamManager {
 
     public Team getTeam(String name) {
         return teams.values().stream().filter(team -> team.getName().equalsIgnoreCase(name)).findFirst().orElse(null);
+    }
+
+    public Team getTeam(UUID uuid) {
+        return teams.values().stream().filter(team -> team.getUuid().equals(uuid)).findFirst().orElse(null);
     }
 
     private void loadTeams() {

@@ -1,6 +1,6 @@
 package xyz.wiseared.smartdevelopment.teams.utils.command.adapters.defaults;
 
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.adapters.ParameterAdapter;
+import xyz.wiseared.smartdevelopment.teams.utils.command.adapters.ParameterAdapter;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;

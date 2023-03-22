@@ -1,6 +1,6 @@
 package xyz.wiseared.smartdevelopment.teams.utils.command.adapters;
 
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.schema.CachedCommand;
+import xyz.wiseared.smartdevelopment.teams.utils.command.schema.CachedCommand;
 import org.bukkit.command.CommandSender;
 
 import java.util.List;

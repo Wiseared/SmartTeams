@@ -1,6 +1,6 @@
 package xyz.wiseared.smartdevelopment.teams.utils.command.permissible.impl.permissible;
 
-import xyz.wiseared.smartdevelopment.warsimulator.utils.command.permissible.PermissibleAttachment;
+import xyz.wiseared.smartdevelopment.teams.utils.command.permissible.PermissibleAttachment;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 
