@@ -10,6 +10,7 @@ import xyz.wiseared.smartdevelopment.teams.team.TeamManager;
 import xyz.wiseared.smartdevelopment.teams.user.User;
 import xyz.wiseared.smartdevelopment.teams.user.UserManager;
 import xyz.wiseared.smartdevelopment.teams.utils.config.Config;
+import xyz.wiseared.smartdevelopment.teams.utils.config.Menus;
 import xyz.wiseared.smartdevelopment.teams.utils.config.Messages;
 import xyz.wiseared.smartdevelopment.teams.utils.menu.MenuHandler;
 import xyz.wiseared.smartdevelopment.teams.utils.others.CC;
