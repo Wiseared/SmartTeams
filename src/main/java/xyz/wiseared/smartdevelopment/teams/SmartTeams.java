@@ -9,6 +9,9 @@ import xyz.wiseared.smartdevelopment.teams.team.Team;
 import xyz.wiseared.smartdevelopment.teams.team.TeamManager;
 import xyz.wiseared.smartdevelopment.teams.user.User;
 import xyz.wiseared.smartdevelopment.teams.user.UserManager;
+import xyz.wiseared.smartdevelopment.teams.utils.config.Config;
+import xyz.wiseared.smartdevelopment.teams.utils.config.Messages;
+import xyz.wiseared.smartdevelopment.teams.utils.menu.MenuHandler;
 import xyz.wiseared.smartdevelopment.teams.utils.others.CC;
 import xyz.wiseared.smartdevelopment.teams.utils.others.YamlDoc;
 
@@ -20,6 +23,7 @@ public class SmartTeams extends JavaPlugin {
 
     private YamlDoc dataYML;
     private YamlDoc messagesYML;
+    private YamlDoc menusYML;
 
     public static SmartTeams getInstance() {
         return getPlugin(SmartTeams.class);
@@ -62,10 +66,18 @@ public class SmartTeams extends JavaPlugin {
         messagesYML = new YamlDoc(getDataFolder(), "messages.yml");
         messagesYML.init();
 
+        menusYML = new YamlDoc(getDataFolder(), "menus.yml");
+        menusYML.init();
+
         teamManager = new TeamManager(this);
         userManager = new UserManager(this);
 
+        Messages.init();
+        Config.init();
+        Menus.init();
+
         new ListenerHandler(this);
         new CommandHandler(this);
+        new MenuHandler(this);
     }
 }

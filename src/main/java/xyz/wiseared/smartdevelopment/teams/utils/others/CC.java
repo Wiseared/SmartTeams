@@ -25,4 +25,8 @@ public class CC {
     public static void console(String msg) {
         Bukkit.getConsoleSender().sendMessage(translate(msg));
     }
+
+    public static boolean isDouble(double i) {
+        return i % 1 == 0;
+    }
 }

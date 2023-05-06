@@ -1,9 +1,14 @@
+GENERAL:
+  ONLY_PLAYER:
+    - '&cThis command is player only!'
+
 TEAMS:
   ALREADY_EXISTS: '&5&lTEAMS &7» &cThis team already exists!'
   ALREADY_IN_TEAM: '&5&lTEAMS &7» &cYou are already in a team!'
   CANT_DAMAGE_TEAM: '&5&lTEAMS &7» &cYou can''t damage your teammate!'
   DOESNT_EXIST: '&5&lTEAMS &7» &cThis team doesn''t exist!'
   NO_TEAM: '&5&lTEAMS &7» &cYou don''t have a team!'
+  FORBIDDEN_NAME: '&5&lTEAMS &7» &cThis is a forbidden name!'
   INFO:
     - '&7&m----------------------'
     - '&fTeam info for &d%team%'
@@ -19,6 +24,7 @@ TEAMS:
     UPDATED: '&5&lTEAMS &7» &fYou have updated the team''s home!'
     BROADCAST: '&5&lTEAMS &7» &fYour team''s home has been updated by &d%player%'
     TELEPORTED: '&5&lTEAMS &7» &fTeleported to &d%team%''s &fhome!'
+    NOT_PERMITTED: '&5&lTEAMS &7» &cYou need to be a Leader or Co-Leader'
   INVITE:
     NO_PERMISSION: '&5&lTEAMS &7» &cYou can''t perform this action with your role!'
     ALREADY_INVITED: '&5&lTEAMS &7» &cThis player is already invited to your team!'

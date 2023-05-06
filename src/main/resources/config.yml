@@ -1,0 +1,5 @@
+TEAMS:
+  FORBIDDEN_NAMES:
+    - 'test'
+    - 'staff'
+    - 'fuck'
